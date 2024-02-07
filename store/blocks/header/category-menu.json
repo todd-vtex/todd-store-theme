@@ -4,104 +4,88 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
+      "menu-item#category-speakers",
+      "menu-item#category-turntables",
       "menu-item#more"
     ]
   },
-  "menu-item#category-apparel": {
+  "menu-item#category-speakers": {
     "props": {
-      "id": "menu-item-category-apparel",
+      "id": "menu-item-category-speakers",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel/",
+        "href": "/electronics/speakers",
         "noFollow": false,
-        "tagTitle": "Apparel",
-        "text": "Apparel"
+        "tagTitle": "Speakers",
+        "text": "Speakers"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#category-apparel"
+      "vtex.menu@2.x:submenu#category-speakers"
     ]
   },
-  "vtex.menu@2.x:submenu#category-apparel": {
+  "vtex.menu@2.x:submenu#category-speakers": {
     "props": {
       "width": "auto"
     },
     "children": [
-      "vtex.menu@2.x:menu#category-apparel"
+      "vtex.menu@2.x:menu#category-speakers"
     ]
   },
-  "vtex.menu@2.x:menu#category-apparel": {
+  "vtex.menu@2.x:menu#category-speakers": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#category-apparel-jackets",
-      "menu-item#category-apparel-gloves",
-      "menu-item#category-apparel-hats"
+      "menu-item#category-speakers-floorstanding",
+      "menu-item#category-speakers-stand-mounted"
     ]
   },
-  "menu-item#category-apparel-jackets": {
+  "menu-item#category-speakers-floorstanding": {
     "props": {
-      "id": "menu-item-category-apparel-jackets",
+      "id": "menu-item-category-speakers-floorstanding",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel/jackets/",
+        "href": "/electronics/speakers/floorstanding/",
         "noFollow": false,
-        "tagTitle": "Jackets",
-        "text": "Jackets"
+        "tagTitle": "Floorstanding",
+        "text": "Floorstanding"
       }
     }
   },
-  "menu-item#category-apparel-gloves": {
+  "menu-item#category-speakers-stand-mounted": {
     "props": {
-      "id": "menu-item-category-apparel-gloves",
+      "id": "menu-item-category-speakers-stand-mounted",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel/gloves/",
+        "href": "/electronics/speakers/stand-mounted/",
         "noFollow": false,
-        "tagTitle": "Gloves",
-        "text": "Gloves"
+        "tagTitle": "Stand Mounted",
+        "text": "Stand Mounted"
       }
     }
   },
-  "menu-item#category-apparel-hats": {
+  "menu-item#category-turntables": {
     "props": {
-      "id": "menu-item-category-apparel-hats",
+      "id": "menu-item-category-turntables",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel/hats/",
+        "href": "/electronics/analog-audio/turntables",
         "noFollow": false,
-        "tagTitle": "Hats",
-        "text": "Hats"
-      }
-    }
-  },
-  "menu-item#category-home": {
-    "props": {
-      "id": "menu-item-category-home",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/home---decor/",
-        "noFollow": false,
-        "tagTitle": "Home & Decor",
-        "text": "Home & Decor"
+        "tagTitle": "Turntables",
+        "text": "Turntables"
       }
     }
   },
