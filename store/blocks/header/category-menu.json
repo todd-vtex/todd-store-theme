@@ -17,10 +17,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/",
+        "href": "/apparel/",
         "noFollow": false,
-        "tagTitle": "Apparel & Accessories",
-        "text": "Apparel & Accessories"
+        "tagTitle": "Apparel",
+        "text": "Apparel"
       }
     },
     "blocks": [
@@ -40,53 +40,53 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#category-apparel-clothing",
-      "menu-item#category-apparel-accessories",
-      "menu-item#category-apparel-eyeglasses"
+      "menu-item#category-apparel-jackets",
+      "menu-item#category-apparel-gloves",
+      "menu-item#category-apparel-hats"
     ]
   },
-  "menu-item#category-apparel-clothing": {
+  "menu-item#category-apparel-jackets": {
     "props": {
-      "id": "menu-item-category-apparel-clothing",
+      "id": "menu-item-category-apparel-jackets",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/clothing/",
+        "href": "/apparel/jackets/",
         "noFollow": false,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+        "tagTitle": "Jackets",
+        "text": "Jackets"
       }
     }
   },
-  "menu-item#category-apparel-accessories": {
+  "menu-item#category-apparel-gloves": {
     "props": {
-      "id": "menu-item-category-apparel-accessories",
+      "id": "menu-item-category-apparel-gloves",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/accessories/",
+        "href": "/apparel/gloves/",
         "noFollow": false,
-        "tagTitle": "Accessories",
-        "text": "Accessories"
+        "tagTitle": "Gloves",
+        "text": "Gloves"
       }
     }
   },
-  "menu-item#category-apparel-eyeglasses": {
+  "menu-item#category-apparel-hats": {
     "props": {
-      "id": "menu-item-category-apparel-eyeglasses",
+      "id": "menu-item-category-apparel-hats",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/eyeglasses/",
+        "href": "/apparel/hats/",
         "noFollow": false,
-        "tagTitle": "Eyeglasses",
-        "text": "Eyeglasses"
+        "tagTitle": "Hats",
+        "text": "Hats"
       }
     }
   },

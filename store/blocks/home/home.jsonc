@@ -47,7 +47,7 @@
 
   "rich-text#shelf-title": {
     "props": {
-      "text": "## Summer",
+      "text": "## Warm Winter Apparel",
       "blockClass": "shelfTitle"
     }
   },
