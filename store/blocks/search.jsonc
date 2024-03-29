@@ -3,8 +3,8 @@
     "blocks": [
       "flex-layout.row#banner-one",
       "flex-layout.row#banner-two",
-      "list-context.image-list#demo",
-      "flex-layout.row#shelf",
+      // "list-context.image-list#demo",
+      // "flex-layout.row#shelf",
       "search-result-layout"
     ],
     "props": {
@@ -17,7 +17,7 @@
 
   "search-banner#one": {
     "props": {
-
+      "area": "one",
       "blockClass": "myBanner",
       "horizontalAlignment": "center"
     }
