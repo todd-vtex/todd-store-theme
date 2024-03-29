@@ -1,3 +1,8 @@
+/*.logo {
+  height: 50px !important;
+}*/
+
+
 /* add transitions */
 :global(.vtex-sticky-layout-0-x-container)
   :global(.vtex-store-components-3-x-logoLink),
