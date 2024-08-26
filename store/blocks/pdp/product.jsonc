@@ -1,6 +1,7 @@
 {
   "store.product": {
     "children": [
+      "pa-widget",
       "flex-layout.row#product-breadcrumb",
       "condition-layout.product#availability",
       "flex-layout.row#description",
@@ -8,6 +9,7 @@
       "product-specification-group#table",
       "shelf.relatedProducts",
       "product-reviews",
+      "countdown",
       "product-questions-and-answers"
     ]
   },
@@ -108,7 +110,6 @@
       "product-separator",
       "product-identifier.product",
       "sku-selector",
-      "ps-product",
       "product-quantity",
       "product-assembly-options",
       "product-gifts",
