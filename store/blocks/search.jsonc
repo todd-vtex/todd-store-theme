@@ -59,7 +59,7 @@
   },
 
   "store.search#category": {
-    "blocks": ["list-context.image-list#demo","search-result-layout"],
+    "blocks": ["search-result-layout"],
     "props": {
       "context": {
         "skusFilter": "ALL",
