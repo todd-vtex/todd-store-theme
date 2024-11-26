@@ -112,7 +112,7 @@
       "product-quantity",
       "product-assembly-options",
       "product-gifts",
-      "flex-layout.row#buy-button",
+      "condition-layout.product#ordervet",
       "availability-subscriber",
       "shipping-simulator",
       "share#default"
@@ -131,6 +131,26 @@
       "variationsSpacing": 3,
       "showValueNameForImageVariation": true
     }
+  },
+  "condition-layout.product#ordervet": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "categoryId",
+          "arguments": {
+            "id": "76"
+          }
+        }
+      ],
+      "Then": "custom-add-to-cart",
+      "Else": "flex-layout.row#buy-button"
+    }
+  },
+
+  "custom-add-to-cart": {
+    "children": [
+      "flex-layout.row#buy-button"
+    ]
   },
 
   "flex-layout.row#buy-button": {
