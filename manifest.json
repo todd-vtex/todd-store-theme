@@ -65,7 +65,8 @@
     "vtex.css-handles": "1.x",
     "vtex.search": "2.x",
     "vtex.seller-selector": "0.x",
-    "todddesantis.countdown": "1.x"
+    "todddesantis.countdown": "1.x",
+    "todddesantis.vet-app-orders": "0.x"
   },
   "peerDependencies": {
     "vtex.reviews-and-ratings": "3.x",
