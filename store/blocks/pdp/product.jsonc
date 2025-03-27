@@ -114,9 +114,37 @@
       "product-gifts",
       "flex-layout.row#buy-button",
       "availability-subscriber",
+      "condition-layout.product#pre-order",
       "shipping-simulator",
       "share#default"
     ]
+  },
+
+  "condition-layout.product#pre-order": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "294192329"
+          }
+        }
+      ],
+      "Then": "rich-text#pre-order-product"
+      // "Else": "rich-text#not-pre-order-product"
+    }
+  },
+
+  "rich-text#pre-order-product": {
+    "props": {
+      "text": "##### Future Arrival: This product is a future arrival. Estimated in-stock date is January, 1 2026"
+    }
+  },
+
+  "rich-text#not-pre-order-product": {
+    "props": {
+      "text": "##### This product is already on stock"
+    }
   },
 
   "flex-layout.row#product-name": {
