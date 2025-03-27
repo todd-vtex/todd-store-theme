@@ -101,6 +101,7 @@
     },
     "children": [
       "flex-layout.row#product-name",
+      "product-seller-name",
       "link-seller",
       "product-rating-summary",
       "flex-layout.row#list-price-savings",
