@@ -59,7 +59,8 @@
       "flex-layout.col#category-menu",
       "flex-layout.col#spacer",
       "search-bar",
-      "locale-switcher",
+      "binding-selector",
+      //"locale-switcher",
       "login",
       "minicart.v2"
     ]
