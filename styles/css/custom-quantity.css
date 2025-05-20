@@ -1,0 +1,9 @@
+/* Hide the default VTEX quantity box for Gold Pool product */
+[data-productid="294192374"] .vtex-numeric-stepper {
+  display: none !important;
+}
+
+/* Ensure our custom quantity input is visible */
+[data-productid="294192374"] .custom-decimal-qty {
+  display: block !important;
+} 

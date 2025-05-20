@@ -1,0 +1,8 @@
+{
+  "custom-decimal-quantity": {
+    "component": "CustomDecimalQuantity"
+  },
+  "custom-decimal-quantity-add-to-cart": {
+    "component": "CustomDecimalQuantityAddToCart"
+  }
+} 

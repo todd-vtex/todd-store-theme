@@ -102,6 +102,9 @@
     "children": [
       "flex-layout.row#product-name",
       "product-seller-name",
+      //"kitco-price",
+      //"kitco-bulk-discount",
+      "kitco-dynamic-pricing",
       "link-seller",
       "product-rating-summary",
       "flex-layout.row#list-price-savings",
@@ -110,7 +113,7 @@
       "product-separator",
       "product-identifier.product",
       "sku-selector",
-      "product-quantity",
+      "condition-layout.product#custom-quantity-gold-pool",
       "product-assembly-options",
       "product-gifts",
       "flex-layout.row#buy-button",
@@ -210,6 +213,34 @@
         "Twitter": false,
         "Pinterest": true
       }
+    }
+  },
+
+  "flex-layout.row#custom-quantity-row": {
+    "children": [
+      "custom-decimal-quantity",
+      "product-quantity"
+    ]
+  },
+  "condition-layout.product#custom-quantity-gold-pool": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "294192374"
+          }
+        }
+      ],
+      "Then": "flex-layout.row#custom-quantity-row",
+      "Else": "product-quantity"
+    }
+  },
+
+  "custom-decimal-quantity": {
+    "props": {
+      "skuId": "350",
+      "seller": "1"
     }
   }
 }
