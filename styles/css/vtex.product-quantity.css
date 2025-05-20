@@ -1,0 +1,29 @@
+/* Hide the default VTEX quantity box */
+.quantitySelectorContainer {
+  display: none !important;
+}
+
+.quantitySelectorTitle {
+  display: none !important;
+}
+
+.quantitySelectorStepper {
+  display: none !important;
+}
+
+:global(.vtex-product-quantity-1-x-quantitySelectorContainer) {
+  display: none !important;
+}
+
+:global(.vtex-product-quantity-1-x-quantitySelectorTitle) {
+  display: none !important;
+}
+
+:global(.vtex-product-quantity-1-x-quantitySelectorStepper) {
+  display: none !important;
+}
+
+/* Style for custom quantity input */
+.custom-decimal-qty {
+  margin: 1rem 0;
+} 
