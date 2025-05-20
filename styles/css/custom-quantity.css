@@ -1,9 +1,13 @@
 /* Hide the default VTEX quantity box for Gold Pool product */
-[data-productid="294192374"] .vtex-numeric-stepper {
+[data-productid="294192374"] .vtex-numeric-stepper,
+[data-productid="294192374"] .vtex-product-quantity-1-x-quantitySelectorContainer,
+[data-productid="294192374"] .vtex-product-quantity-1-x-quantitySelectorTitle,
+[data-productid="294192374"] .vtex-product-quantity-1-x-quantitySelectorStepper {
   display: none !important;
 }
 
 /* Ensure our custom quantity input is visible */
 [data-productid="294192374"] .custom-decimal-qty {
   display: block !important;
+  margin: 1rem 0;
 } 
