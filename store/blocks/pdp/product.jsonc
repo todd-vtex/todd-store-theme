@@ -170,7 +170,35 @@
       "marginTop": 4,
       "marginBottom": 7
     },
-    "children": ["add-to-cart-button"]
+    "children": ["condition-layout.product#hide-add-to-cart"]
+  },
+
+  "condition-layout.product#hide-add-to-cart": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "294192366"
+          }
+        }
+      ],
+      "Then": "rich-text#empty-button",
+      "Else": "add-to-cart-button"
+    }
+  },
+
+  "rich-text#empty-button": {
+    "props": {
+      "text": ""
+    }
+  },
+
+  "add-to-cart-button": {
+    "props": {
+      "productId": "294192366",
+      "visible": false
+    }
   },
 
   "flex-layout.row#product-availability": {
@@ -217,6 +245,9 @@
   },
 
   "flex-layout.row#custom-quantity-row": {
+    "props": {
+      "blockClass": "custom-quantity-row"
+    },
     "children": [
       "custom-decimal-quantity",
       "product-quantity"
