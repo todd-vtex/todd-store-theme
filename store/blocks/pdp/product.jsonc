@@ -104,7 +104,7 @@
       "product-seller-name",
       //"kitco-price",
       //"kitco-bulk-discount",
-      "condition-layout.product#dynamic-pricing",
+      "condition-layout.product#kitco-dynamic-pricing",
       "link-seller",
       "product-rating-summary",
       "flex-layout.row#list-price-savings",
@@ -275,7 +275,7 @@
     }
   },
 
-  "condition-layout.product#dynamic-pricing": {
+  "condition-layout.product#kitco-dynamic-pricing": {
     "props": {
       "conditions": [
         {
@@ -289,7 +289,6 @@
       "Else": "rich-text#empty"
     }
   },
-
   "rich-text#empty": {
     "props": {
       "text": ""
